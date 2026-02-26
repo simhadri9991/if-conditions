@@ -407,37 +407,132 @@ elif 20 not in a:
 else:
     print("lesser")'''
 
+#multiple-if conditions by using comparision operators
+'''a=5
+b=10
+if a<b:
+    print("less")
+if b>a:
+    print("Greater")
+if a!=b:
+    print("Not equal")'''
+
+'''a=5
+b=10
+if a<b:
+    print("less")
+elif b>a:
+    print("Greater")
+elif a!=b:
+    print("Not equal")'''
+
+'''a=5
+b=10
+if a==b:
+    print("less")
+if b>a:
+    print("Greater")
+if a!=b:
+    print("Not equal")'''
+
+'''a=5
+b=10
+if a<b:
+    print("less")
+if b>a:
+    print("Greater")
+if a==b:
+    print("Not equal")
+elif a!=b:
+    print("true")'''
+#multiple if-else by Logical operators
+#and,or,not
+'''a=5
+b=10
+if a<b and b<a:
+    print("less")
+if a!=b or a==b:
+    print("Greater")
+if not a<=b:
+    print("Not equal")'''
+
+'''a=5
+b=10
+if a<b and b<a:
+    print("less")
+elif a!=b or a==b:
+    print("Greater")
+elif not a<=b:
+    print("Not equal")'''
+#multiple if-else by identifuy operators
+#is,is not
+'''a=5
+b=10
+if a is b:
+    print("less")
+if not b is a:
+    print("Not equal")'''
+#Multiple if-else by membership operators
+#in,not in
+'''a=[1,2,3,5,6,7]
+b=4
+if b in a:
+    print("less")
+if not b in a:
+    print("Not equal")'''
+#Nested-if codition
+'''a=10
+b=20
+if a<b:
+    print("less")
+    if b>a:
+        print("Greater")'''
+
+'''a=10
+b=20
+if a==b:
+    print("less")                  #Here first conditions fails then nested if will stops
+    if b>a:
+        print("Greater")'''
+
+'''a=10
+b=20
+if a<=b:
+    print("less")
+    if b==a:
+        print("Greater")
+    else:
+        print("true")'''
 
 
+'''a=10
+b=20
+if a==b:
+    print("less")
+    if b!=a:
+        print("Greater")
+else:
+    print("true")'''
 
+'''a=10
+b=20
+if a<=b:
+    print("less")
+    if b==a:
+        print("Greater")
+    else:
+        print("false")'''
 
-
-
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+'''a=10
+b=20
+if a<=b:
+    print("less")
+    if b==a:
+        print("Greater")
+    elif a==b:
+        print("not equal")
+    else:
+        print("false")'''
 
 
 
